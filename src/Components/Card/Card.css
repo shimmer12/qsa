@@ -1,0 +1,58 @@
+.card-container {
+    width: 100%;
+    padding: 1.2rem; /* Increased padding for better spacing */
+    border-radius: 0.75rem; /* Slightly larger border-radius */
+    border: 1px solid #e0e0e0; /* Lighter border color */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Deeper shadow for a more elevated effect */
+    background-color: var(--white1);
+    margin-bottom: 1.5rem; /* Increased margin for better separation */
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Add transition for hover effects */
+}
+
+.card-container:hover {
+    transform: translateY(-2px); /* Slightly lift the card on hover */
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+.card-id {
+    color: var(--textgrey);
+    font-size: 1rem; /* Increased font size for better readability */
+    font-weight: 600; /* Increased font weight for prominence */
+}
+
+.card-profile {
+    height: 30px; /* Increased height */
+    width: 30px; /* Increased width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white1);
+    background-color: #FFA500; /* Changed to a more vibrant orange */
+    border-radius: 50%;
+    font-size: 0.9rem; /* Increased font size */
+}
+
+.card-tag-title {
+    font-size: 0.95rem; /* Slightly larger font for better visibility */
+    font-weight: 500;
+    color: var(--textgrey);
+}
+
+.card-tag-icon {
+    border: 1px solid var(--grey1);
+    border-radius: 0.4rem; /* Slightly larger radius for a softer look */
+    width: fit-content;
+    height: 30px; /* Increased height */
+    display: flex;
+    align-items: center;
+    margin-right: 0.7rem; /* Increased margin for spacing */
+}
+
+.card-tag-box {
+    border: 1px solid var(--grey1);
+    padding: 0.5rem; /* Increased padding */
+    border-radius: 0.4rem; /* Slightly larger radius */
+    margin-right: 0.5rem; /* Added right margin for spacing */
+    background-color: var(--light-grey); /* Added background for better contrast */
+}

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white1: #ffffff;
+  --black1: #000000;
+
+  --textgrey: #808184;
+
+  --lilac1: #E6E6FA;
+  --lilac2: #D8BFD8;
+  --lilac3: #C8A2C8;
+
+  --grey1: #dfe4e9;
+  --grey2: #f0f1f4;
+  --grey3: #F8F8FA;
+}
+
+.board-details {
+  width: 100%;
+  height: calc(100vh - 68px);
+  background-color: var(--lilac2);
+  overflow-x: scroll;
+}
+
+.board-details-list {
+  width: fit-content;
+  display: flex;
+}
